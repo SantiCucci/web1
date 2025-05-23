@@ -1,0 +1,311 @@
+body{
+
+        background-color: #76b9ff;
+        min-height: 100vh; 
+        color: white;
+        position: relative;
+        padding-bottom: 3em; 
+        min-height: 100vh;
+
+    }
+
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+        * {
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Binance PLEX";
+    }
+    
+    
+        .header{
+    
+        background-color: #192f47;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 85px;
+        padding: 5px 10%;
+    
+    }
+
+    
+        .header img:hover{
+    
+        transform: scale(1.06);
+    
+    }
+
+
+        .header img{
+
+        cursor: pointer; 
+        height: 115px;
+        width: auto;
+        transition: all 0.3s;
+
+    } 
+
+        .mover-texto{
+
+        margin-left: 40px;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+        p {
+
+        font-size: 18px;
+        line-height: 1.6
+
+    }
+
+        #introduccion-muchachos{
+
+        margin-top: 160px;
+        font-size: 1.7rem;
+        text-align: center;
+        line-height: 1.6;
+
+    }
+
+        #muchachos-banner{
+    
+        max-width: 400px;
+        float: left;
+        border: 3px solid #002872;
+        border-radius: 10px;
+        margin-right: 60px;
+
+    }
+    
+        #muchachos img{
+
+        width: 100%;
+        height: auto;
+        mask-image: linear-gradient(black 60%, transparent)
+
+    }
+
+        .links{
+    
+      list-style: none;
+    
+    }     
+    
+        .links li{
+    
+        display: inline-block;
+        padding: 0 20px;
+    
+    }
+    
+        .links a{
+      
+        font-size: 700;
+        color:antiquewhite;
+        text-decoration: none;
+    
+    }
+
+        .links li:hover{
+
+        transform: scale(1.1);
+    
+    }
+    
+        .links li a:hover{
+    
+        color: #76b9ff;
+    
+    }
+
+        .datos-pelicula{
+
+        margin: 150px auto;
+        width: 70%;
+
+    }
+
+        .reparto {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 20px;
+        max-width: 1200px;
+        margin: 40px auto;
+        padding: 10px;
+    }
+    
+    
+        .reparto img {
+
+        width: 100%;
+        height: 400px; 
+        object-fit: cover;
+        border: 3px solid #464646;
+        border-radius: 10px;
+    }
+    
+        .reparto p{
+
+        margin-bottom: 5px;
+
+    }
+
+
+        .productoras {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 100px;
+        max-width: 1200px;
+        margin-left: 200px;
+        padding: 10px;
+        margin-top: 40px;
+        margin-bottom: 100px;
+
+    }
+    
+        .productoras img {
+
+        width: 100%;
+        height: 250px; 
+        object-fit: cover;
+        border: 3px solid #464646;
+        border-radius: 10px;
+        margin-left: 120px;
+    }
+    
+        .productoras p{
+
+        margin-left: 120px;
+        margin-bottom: 5px;
+
+    }
+
+        .direccion {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 150px;
+        max-width: 1200px;
+        margin: 40px auto;
+        margin-left: 200px;
+        padding: 10px;
+
+    }
+    
+    
+        .direccion img {
+
+        width: 100%;
+        height: 300px; 
+        object-fit: cover;
+        border: 3px solid #464646;
+        border-radius: 10px;
+        margin-left: 120px;
+    
+    }
+    
+        .direccion p{
+
+        margin-left: 120px;
+        margin-bottom: 5px;
+
+    }
+        .container{
+
+        color: beige;
+        background-color: #192f47;
+
+    }
+
+        .form-container{
+
+        width: 600px;
+        background-color: #76b9ff;
+        padding: 30px;
+        margin: auto;
+        margin-top: 60px;
+        border-radius: 4px;
+
+    }
+
+        .input-form{
+
+        width: 100%;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid   #7d8288;
+        font-size: 18px;
+
+    }
+
+        .boton{
+
+        width: 100%;
+        background-color:  #192f47;
+        border: none;
+        padding: 12px;
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 7px;
+        cursor: pointer;
+        
+        }
+
+        .footer{
+
+        background-color: rgb(0, 0, 0);
+        padding: 1em 0;
+        text-align: center;
+        position: absolute;
+        width: 100%;
+
+
+    }
+
+        .footer .links{
+
+        margin: 40px;
+
+    }
+
+        .btn button{
+    
+        font-weight: 700;
+        color:#ffffff;
+        padding: 9px 25px;
+        background: #192f47;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+
+    }
+
+        .btn button:hover{
+
+        background-color: #76b9ff;
+        color:  rgb(0, 0, 0);
+        transform: scale(1.1);
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
